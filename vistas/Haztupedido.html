@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="<"link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="<"link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Neonderthaw&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        
+        <img class="encabezado__logo" src="/imagenes/Logopasteleriadriana.jpeg" alt="">
+    
+                <H1 class="encabezado__titulo">PASTELERIA ADRIANA</H1> <br>
+                <H2 class="texto__eslogan">Pasteleria Adriana se pone a tu servicio ! <br>
+                    Contamos con amplio surtido de pasteles y postres
+                    para cualquier ocasión.</H2>
+    
+                    <div class="logos">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-whatsapp-square"></i>
+                        <i class="fab fa-instagram"></i> 
+                       </div>
+          
+        </header>
+
+
+    <section> 
+
+        <div class="galeriabox">
+            <img src="/imagenes/Pastel1.jpeg" alt="">
+            <img src="/imagenes/Pastel2.jpeg" alt="">
+            <img src="/imagenes/Pastel3.jpeg" alt="">
+            <img src="/imagenes/Pastel4.jpeg" alt="">
+            <img src="/imagenes/Pastel5.jpeg" alt="">
+            <img src="/imagenes/Pastel6.jpeg" alt="">
+        </div> 
+
+    </section>
+    
+    <nav class="nav">
+        <ul>
+            <li><a href="/index.html">INICIO</a></li>
+            <li><a href="/vistas/pasteles.html">PASTELES</a></li>
+            <li><a href="/vistas/postres.html">POSTRES</a></li>
+            <li><a href="/vistas/sucursales.html">SUCURSALES</a></li>
+        </ul>
+    </nav>
+
+    <section class="main">
+ 
+     <div class="fieldset__section">
+
+        <Fieldset class="fieldset__personales">
+            <legend>DATOS PERSONALES</legend>
+
+            <form action="GET">
+
+            <input class="fieldset__cajadescripcion" type="text" name="" id="" placeholder="INGRESE SU NOMBRE">
+            <br>
+            <input class="fieldset__cajadescripcion" type="text" name="" id="" placeholder="INGRESE SU E-MAIL">
+            <br>
+            <input class="fieldset__cajadescripcion" type="text" name="" id="" placeholder="INGRESE SU TELEFONO">
+             <br>
+             <label for="eligestado">SELECCIONE SU ESTADO DE LA REPUBLICA:</label>
+             <select class="fieldset__cajaseleccion" name="eligestado" id="">
+                 <option value="0">Estado</option>
+                 <option value="1">Monterrey</option>
+                 <option value="2">Apodaca</option>
+                 <option value="3">Guadalupe</option>
+             </select>
+            </Fieldset>
+
+        <fieldset class="fieldset__pedido">
+
+        <legend>PERSONALIZA TU PEDIDO</legend>
+
+        <label for="producto">SELECCIONE SU PRODUCTO</label>
+
+            <input type="radio" name="tipoproducto" id="producto" value="Postre">Postre
+            <input type="radio" name="tipoproducto" id="producto" value="Pastel">Pastel
+
+           <br>
+
+            <label for="eligestado">SELECCIONE LA CANTIDAD:</label>
+
+            <select class="fieldset__cajaseleccion" name="eligestado" id="">
+                <option value="0">Cantidad</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="+">Mas de 3</option>
+            </select>
+
+            <br>
+
+            <label for="eligestado">SELECCIONE LA CANTIDAD DE PERSONAS PARA TU PASTEL:</label>
+
+            <select class="fieldset__cajaseleccion" name="eligestado" id="">
+
+                <option value="0">Personas</option>
+                <option value="1">Menos de 5</option>
+                <option value="2">5-10</option>
+                <option value="3">Mas de 10</option>
+            </select>
+
+            <br>
+
+            <button class="fieldset__sectionboton" type="submit">Inserte una foto del diseño de su pastel</button>
+
+            <br>
+
+            <input class="fieldset__cajadescripcion" type="text" placeholder="¿Como quieres tu pastel?" >
+
+            <br>
+
+            <label for="Entrega">METODO DE ENTREGA</label>
+<br>
+            <input type="radio" name="tipoproducto" id="Entrega" value="Domicilio">Entrega a domicilio
+            <br>
+            <input type="radio" name="tipoproducto" id="Entrega" value="sucursal">Recoge en sucursal
+
+           <br>
+
+           <input class="fieldset__cajadescripcion" type="text"id="Entrega"placeholder="Ingrese su domicio de entrega">
+        
+           <p>"Pastelería Adriana se pondrá inmediatamente en contacto contigo, para atender y detallar tu pedido."</p>
+           <button class="fieldset__sectionboton" type="submit">ENVIAR</button>
+           <button class="fieldset__sectionboton" type="reset">RESET</button>
+
+        </fieldset>
+
+        </form>
+
+    </div>
+
+    </section>
+        
+        <footer class="footer">
+            <p>Pastelería adriana a tu disposición, !comunicate con nosotros!
+                Esta página web es un prototipo de práctica.</p>
+        </footer>
+        
+</body>
+
+</html>
