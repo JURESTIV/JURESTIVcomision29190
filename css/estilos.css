@@ -6,42 +6,6 @@
     box-sizing: border-box ;
 }
 
-/*Grid general de pagina*/
-
-body{
-background-color: cornsilk;
-width: 100vw;
-display: grid;
-grid-template-columns: 100vw;
-grid-template-rows: 200px auto auto auto 50px;
-grid-row-gap: 1rem;
-grid-template-areas: "header"
-                     "galeria"
-                     "nav"
-                     "main"
-                     "footer";
-}
-
-header{
-    grid-area: header;
-}
-
-nav{
-    grid-area: nav;
-}
-
-section .main{
-    grid-area: main;
-}
-
-div.galeriabox{
-    grid-area: galeria;
-}
-
-
-/*Grid general de pagina*/
-
-
 /*INICIA SECCION HEADER*/
 
 .encabezado{
@@ -107,23 +71,15 @@ div.galeriabox{
     padding: 10px;
     overflow: auto;
     display: flex;
-    justify-content: space-around;
     align-items: center
 }
 
-.galeriabox img{
-   width: 200px;
-   height: 200px;
-   display: inline;
-   padding: 5px;
-   align-self: center;
+.estiloimagen{
+    height: 50vh;
+    object-fit: contain;
 }
 
-.galeriabox img:hover {
-    width: 190px;
-    height: 190px;
-    filter: opacity(40%);
-}
+
 
 /*TERMINA SECCION GALERIA*/
 
@@ -131,14 +87,12 @@ div.galeriabox{
 
 .nav{
     background-color: salmon;
-    display: inline-block;
-    padding: 5px;
+    padding:5px;
 }
 
 .nav li {
     list-style: none;
     display: inline-block;
-    margin: 2.5px;
     border-color: cornsilk;
     border-style: solid;
     border-width: 2.5px;
@@ -167,6 +121,7 @@ div.galeriabox{
     width: 100vw;
     height: 100%;
     padding: 10px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
