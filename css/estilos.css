@@ -234,7 +234,6 @@ legend{
 
 .fieldset__cajadescripcion{
  height: 25px;
- width: 400px;
  margin: 4px;
 }
 
@@ -248,7 +247,6 @@ legend{
     text-align: center;
     font-family:'Montserrat', sans-serif;
     font-weight: bold;
-    height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -306,7 +304,6 @@ body{
     font-size: 1rem;
     font-family:'Montserrat', sans-serif;
     text-align: left;
-    padding: 5px;
 }
 
 .logos{
@@ -498,7 +495,6 @@ font-size: 0.5rem;
     text-align: center;
     font-family:'Montserrat', sans-serif;
     font-weight: bold;
-    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
