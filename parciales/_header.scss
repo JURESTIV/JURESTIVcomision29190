@@ -1,0 +1,48 @@
+.encabezado{
+    background-color: $durazno-claro;
+    display: grid;
+    grid-template-columns: 175px 2fr 1fr;
+    grid-template-rows: 25% 75%;
+ 
+ &__logo{
+     width: 175px;
+     height: 175px;
+     grid-column: 1/2;
+     grid-row: 1/3;
+     padding: 10px;
+     display: flex;
+     justify-content: flex-start;
+ }
+ 
+ &__titulo{
+     font-size: 2rem;
+     font-family:'Montserrat', sans-serif;
+     text-align: center;
+     padding: 20px;
+     font-weight: bold;
+     grid-column: 2/3;
+     grid-row: 1/2;
+     display: flex;
+     justify-content: flex-start;
+ 
+ }
+ &__eslogan{
+    font-size: 1.25rem;
+    font-family:'Montserrat', sans-serif;    
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+&__netlogos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+
+}
