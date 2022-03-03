@@ -10,30 +10,25 @@
      grid-column: 1/2;
      grid-row: 1/3;
      padding: 10px;
-     display: flex;
-     justify-content: flex-start;
  }
  
  &__titulo{
-     font-size: 2rem;
-     font-family:'Montserrat', sans-serif;
-     text-align: center;
+     @include flex-flexstart();
+     font-size: map-get($estilos,tamañotitulo);
+     font-family:map-get($estilos,fuente);
+     text-align: map-get($estilos,centrartexto);
      padding: 20px;
      font-weight: bold;
      grid-column: 2/3;
      grid-row: 1/2;
-     display: flex;
-     justify-content: flex-start;
  
  }
  &__eslogan{
-    font-size: 1.25rem;
-    font-family:'Montserrat', sans-serif;    
+    @include flex-flexstart();
+    font-family: map-get($estilos,fuente);
+    font-size: map-get($estilos,tamañoeslogan);
     grid-column: 2/3;
     grid-row: 2/3;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
     padding: 20px;
 }
 
@@ -46,3 +41,6 @@
   }
 
 }
+
+
+

@@ -13,7 +13,7 @@
     font-size: 0.75rem;
     text-decoration:none;
     margin: 3px;
-    font-family:'Montserrat', sans-serif;  
+    font-family: map-get($estilos,fuente);
 }
 
 .navbar-toggler{
@@ -28,6 +28,6 @@
 }
 
 .navbar-brand{
-    font-family:'Montserrat', sans-serif;  
+    font-family:map-get($estilos,fuente);  
 }
 

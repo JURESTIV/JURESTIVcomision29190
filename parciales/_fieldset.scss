@@ -1,9 +1,7 @@
 .fieldset{
     padding: 10px;
-    display: flex;
     grid-column-gap: 10px ;
-    align-items: center;
-    justify-content: center;
+    @include supercentro ();
 
 &__personales{
     grid-column: 1 / 2;
@@ -16,19 +14,15 @@
 }
 
 &__pedido{
+    @extend &__personales ;
     grid-column: 2/3;
     grid-row: 1/3;
-   background-color:$beige;
-   font-family:'Montserrat', sans-serif; 
-   height: auto;
-   padding: 15px;
-   font-size: 1rem;
-   line-height: 1.5;
+    
 }
 
 &__sectionboton{
     height:25px;
-    width: 250px;
+    width: 300px;
     background-color:$durazno-claro;
     border-color: $bordes;
     border-width: 2px;
@@ -41,6 +35,7 @@
 &__cajadescripcion{
  height: 25px;
  margin: 4px;
+ width: 250px;
 }
 
 }

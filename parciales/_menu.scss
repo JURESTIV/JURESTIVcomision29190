@@ -10,38 +10,31 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 15% auto;
     grid-column-gap: 50px ;
-    align-items: center;
-    justify-content: center;
     height: 100%;
 }
 
 &__cajatexto{
     padding: 10px;
     font-size: 1.25rem;
-    font-family:'Montserrat', sans-serif; 
-    text-align: center;
+    font-family: map-get($estilos,fuente);
+    text-align: map-get($estilos,centrartexto);
     grid-column:  1 / 2;
     grid-row: 2 / 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: $beige;
-    
+    @include supercentro();
 }
 
 &__subtitulo{
     display:inline-block;
     padding: 10px;
-    font-size: 1.25rem;
+    font-size: map-get($estilos,tamañotexto);
     text-align: center;
-    font-family:'Montserrat', sans-serif; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: map-get($estilos,fuente);
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     background-color: $beige;
     font-weight: bold;
+    @include supercentro()
 }
 
 }
@@ -56,3 +49,4 @@
     align-self: center;
    
   }
+

@@ -6,3 +6,23 @@ $beige: antiquewhite;
 $fondo: cornsilk;
 $bordes: black;
 
+
+$estilos:(
+    fuente:'Montserrat', sans-serif,
+    centrartexto:center,
+    tamañotitulo:2rem,
+    tamañoeslogan:1.25rem,
+    tamañotexto:1.25rem
+);
+
+@mixin flex-flexstart {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+@mixin supercentro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
