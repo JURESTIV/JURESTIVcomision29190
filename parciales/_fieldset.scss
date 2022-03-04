@@ -14,7 +14,7 @@
 }
 
 &__pedido{
-    @extend &__personales ;
+    @extend .fieldset__personales ;
     grid-column: 2/3;
     grid-row: 1/3;
     

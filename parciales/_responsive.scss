@@ -5,12 +5,14 @@
     .encabezado{
        padding: 10px;
        flex-direction: column;
+       display: flex;
       
     }
     .encabezado__logo{
         width: 100px;
         height: 100px;
         display: inline-block;
+       flex-direction: column;
     }
     
     .encabezado__titulo{
