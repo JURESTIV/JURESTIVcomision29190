@@ -4,7 +4,8 @@
   box-sizing: border-box; }
 
 body {
-  width: 100vw; }
+  width: 100vw;
+  background-color: cornsilk; }
 
 .encabezado {
   background-color: peachpuff;
@@ -169,13 +170,14 @@ legend {
   /*AQUI INICIA SECCION DE HEADER*/
   .encabezado {
     padding: 10px;
+    display: flex;
     flex-direction: column;
-    display: flex; }
+    justify-content: center; }
   .encabezado__logo {
     width: 100px;
     height: 100px;
     display: inline-block;
-    flex-direction: column; }
+    align-self: center; }
   .encabezado__titulo {
     display: inline-block;
     font-size: 1.5rem;
@@ -183,7 +185,9 @@ legend {
     font-weight: bold;
     align-self: center; }
   .encabezado__eslogan {
-    font-size: 1rem; }
+    font-size: 1rem;
+    align-self: center;
+    justify-content: center; }
   .encabezado__netlogos {
     display: flex;
     align-self: flex-end;
